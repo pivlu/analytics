@@ -1,16 +1,17 @@
 {
-    "name": "nurasoftware/nurastats",
+    "name": "pivlu/analytics",
     "type": "project",
-    "description": "NuraStats - Open source and privacy-friendly web analytics alternative to Google Analytics.",
+    "description": "Pivlu Analytics - Open source and privacy-friendly web analytics alternative to Google Analytics.",
     "keywords": [
-        "nurastats",
+        "pivlu-analytics",
         "analytics",
-        "web analytics",
-        "Google Analytics alternative"
+        "web-analytics",
+        "metrics",
+        "google-analytics-alternative"
     ],
     "license": "AGPL-3.0",
-    "homepage": "https://nurastats.com",
-    "author": "Gabriel Chimilevschi - NuraSoftware.com",
+    "homepage": "https://analytics.pivlu.com",
+    "author": "Iosif Gabriel Chimilevschi - pivlu.com",
     "require": {
         "php": "^8.4",
         "hisorange/browser-detect": "^5.0",
@@ -20,7 +21,7 @@
         "league/flysystem-aws-s3-v3": "^3.0",
         "livewire/livewire": "^3.6",
         "nesbot/carbon": "^3.8",
-        "opcodesio/log-viewer": "^3.17",
+        "opcodesio/log-viewer": "^3.18",
         "pulkitjalan/ip-geolocation": "^8.1"
     },
     "require-dev": {
