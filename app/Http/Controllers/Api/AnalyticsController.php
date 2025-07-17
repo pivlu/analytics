@@ -104,7 +104,7 @@ class AnalyticsController extends Controller
 
 
 
-        $site = Site::where('code', $data->site ?? null)->where('active', 1)->where('clevada_status', 'active')->first();
+        $site = Site::where('code', $data->site ?? null)->where('active', 1)->first();
         if ($site) {
 
             // check if request come from this valid site
@@ -234,7 +234,7 @@ class AnalyticsController extends Controller
         // TODO ...................
         // check if site exists and is verified
 
-        $site = Site::where('code', $data->site ?? null)->where('active', 1)->where('clevada_status', 'active')->first();
+        $site = Site::where('code', $data->site ?? null)->where('active', 1)->first();
         if ($site) {
             LogSession::where('hash', $data->tracking_id)->update(['seconds_min' => $data->seconds_min]);
         }
