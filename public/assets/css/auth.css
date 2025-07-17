@@ -1,0 +1,32 @@
+.auth-bg {
+    background-color: #28313b;
+}
+
+.footer-text {
+    color: #cecaca;
+}
+
+.footer-text a {
+    color: #ffffff;
+}
+
+.alert ul {
+    margin-bottom: 0;
+}
+
+.btn-auth {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #4d82cf;
+    --bs-btn-border-color: #4d82cf;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #3265b3;
+    --bs-btn-hover-border-color: #3265b3;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #3265b3;
+    --bs-btn-active-border-color: #3265b3;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #4d82cf;
+    --bs-btn-disabled-border-color: #4d82cf;
+}
